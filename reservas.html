@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/favicon.webp" type="image/webp">
+    <title>RESERVAS</title>
+</head>
+<body>
+    <header>
+        <div align="center">
+            <img src="./img/cafe_logo.webp" alt="logo de la página" width="190" height="190">   	
+            <h1>EL RINCÓN DEL CAFÉ</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="la-carta.html">La carta</a></li>
+                <li><a href="reservas.html">Reservas</a></li>
+                <li><a href="consultas.html">Consultas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2 align="center">RESERVAS</h2>
+            <p><strong>Reserva tu mesa eligiendo la fecha y hora que prefieras</strong></p>
+            <form>
+                <label for="nombre">Nombre: </label>
+                <input id="nombre" name="nombres" placeholder="Nombre y apellido" required>
+                <br>
+                <br>
+                <label for="correo">Correo electrónico: </label>
+                <input id="correo" name="correo" type="email" placeholder="ejemplo@gmail.com" required>
+                <br>
+                <br>
+                <label for="telefono">Teléfono: </label>
+                <input id="telefono" name="telefono" type="tel" placeholder="999 999 999">
+                <br>
+                <br>
+                <label for="fecha">Fecha:</label>
+                <input id="fecha" name="fecha" type="date">
+                <br>
+                <br>
+                <label for="hora">Hora:</label>
+                <input type="time" id="hora" name="hora" required>
+                <br>
+                <br>
+                <label for="personas">Cantidad de personas*</label>
+                <input id="personas" name="personas" type="number" placeholder="0">
+                <br>
+                <br>
+                <label for="mensaje">Mensaje*</label>
+                <br>
+                <textarea id="mensaje" name="mensaje" cols="50" rows="15" placeholder="Mensaje"></textarea>
+                <br>
+                <br>
+                <label for="contacto">Preferencia de contacto:</label><br>
+                <select name="contacto" id="contacto">
+                    <option value="email">correo electrónico</option>
+                    <option value="telefono">teléfono</option>
+                </select>
+                <br>
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <br>
+    <br>
+    <footer align="center">
+        <div>
+            <h3>SÍGUENOS</h3>
+            <a href="https://www.tiktok.com" target="_blank">
+                <img src="./img/tiktok.webp" alt="tiktok" width="50" height="50">
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="./img/instagram.webp" alt="instagram" width="50" height="50">
+            </a>
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="./img/facebook.webp" alt="facebook" width="50" height="50">
+            </a>
+        </div>
+        <div>
+            <h3>HORARIOS</h3>
+            <p>Lunes - Viernes: 7am - 6pm</p>
+            <p>Sábado: 8am - 8pm</p>
+            <p>Domingo: 8am - 6pm</p>
+        </div>
+        <div>
+            <h3>UBICACIÓN</h3>
+            <p>Av. José Larco 123,</p>
+            <p>Miraflores, Lima 18, Perú</p>
+        </div>
+        <div>
+            <h3>CONTACTO</h3>
+            <p>Tel: 999-999-999</p>
+            <p>Correo electrónico: <a href="mailto:cafe.al.aire@gmail.com">cafes.al.aire@gmail.com</a></p>
+        </div>
+    </footer>
+</body>
+</body>
+</html>
+
+
+
